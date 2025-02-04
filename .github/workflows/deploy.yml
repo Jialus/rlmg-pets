@@ -46,4 +46,4 @@ jobs:
           git config --global user.email "jialu@rlmg.com"
           git config --global user.name "Jialus"
           yarn install --frozen-lockfile
-          yarn deploy
+          USE_SSH=true yarn deploy
