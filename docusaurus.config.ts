@@ -13,11 +13,11 @@ const config: Config = {
   url: 'https://rlmg-cute.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/rlmg-pets/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'rlmg', // Usually your GitHub org/user name.
+  organizationName: 'rlmg/Jialus', // Usually your GitHub org/user name.
   projectName: 'rlmg-cute', // Usually your repo name.
 
   onBrokenLinks: 'throw',
