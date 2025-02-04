@@ -105,7 +105,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RLMG. All pets are cute.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RLMG. All office furry friends are cute.`,
     },
     prism: {
       theme: prismThemes.github,
