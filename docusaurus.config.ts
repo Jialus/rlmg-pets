@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rlmg/Jialus', // Usually your GitHub org/user name.
-  projectName: 'rlmg-cute', // Usually your repo name.
+  projectName: 'rlmg-pets', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
