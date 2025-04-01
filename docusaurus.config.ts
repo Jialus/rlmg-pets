@@ -31,6 +31,23 @@ const config: Config = {
     locales: ['en'],
   },
 
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        // The following are all optional configurations
+        hashed: true,
+        language: ["en"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        docsRouteBasePath: "/docs",
+        indexBlog: true,
+        indexPages: false,
+        indexDocs: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -76,9 +93,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'petSidebar',
           position: 'left',
           label: 'Pets',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'softwareSidebar',
+          label: 'Software',
+          position: 'left',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {
@@ -86,6 +109,10 @@ const config: Config = {
         //   label: 'GitHub',
         //   position: 'right',
         // },
+        {
+          type: 'search',  // Add this line to show the search bar
+          position: 'right', // You can adjust the position to 'left' or 'right'
+        },
       ],
     },
     footer: {
