@@ -1,4 +1,8 @@
-# SCIOWA Cosmic Playlist App
+---
+title: SCIOWA Cosmic Playlist App
+tags:
+  - Docker
+---
 
 **Requirements:** a server with either:
 

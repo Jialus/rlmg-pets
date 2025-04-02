@@ -5,15 +5,15 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'RLMG CUTE',
+  title: 'RLMG Wiki',
   tagline: 'Purrs, tail wags, and endless fun—our office in a nutshell!',
-  favicon: 'img/rlmg-logo.ico',
+  favicon: 'img/rlmg-logo-blue.svg',
 
   // Set the production url of your site here
   url: 'https://jialus.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/rlmg-pets/',
+  baseUrl: '/rlmg-wiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -85,7 +85,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/rlmg-logo.png',
     navbar: {
-      title: 'RLMG',
+      title: '',
       logo: {
         alt: 'RLMG Logo',
         src: 'img/rlmg-logo.png',

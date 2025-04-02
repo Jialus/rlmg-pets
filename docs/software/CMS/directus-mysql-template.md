@@ -1,5 +1,8 @@
 ---
 title: Directus MySQL Template
+tags:
+  - CMS
+  - Docker
 ---
 
 ## Docker with Directus / MySQL / Adminer / GraphQL
