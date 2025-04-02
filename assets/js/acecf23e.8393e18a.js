@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrlmg_pets=self.webpackChunkrlmg_pets||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/rlmg-pets/blog","blogTitle":"Blog","authorsListPath":"/rlmg-pets/blog/authors"}')}}]);
